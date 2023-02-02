@@ -1,0 +1,18 @@
+#todo {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+}
+
+#todo:focus,
+#todo:focus-visible {
+  border-color: #8e9eab !important;
+  outline: 0 none;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
